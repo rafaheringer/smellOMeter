@@ -18,7 +18,7 @@
     <None Include="BathroomReceiver.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Visual Micro\.Arduino.vsarduino.h">
+    <ClInclude Include="Visual Micro\.Radio Receiver.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

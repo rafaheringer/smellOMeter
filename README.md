@@ -3,7 +3,7 @@
 The greatest and useful project for your organization it does not matter if you have a small or big team. All people have one thing in common: we all FART! 
 And you need to know if the organization bathroom is smells bad (and of course if is occupied).
 
-![](Documentation/images/poopIcon.jpg?raw=true) ![](Documentation/images/poopIcon.jpg?raw=true) ![](Documentation/images/poopIcon.jpg?raw=true)
+![](Documentation/Images/Icons/poopIcon.jpg?raw=true) ![](Documentation/Images/Icons/poopIcon.jpg?raw=true) ![](Documentation/Images/Icons/poopIcon.jpg?raw=true)
 
 ## Arduino - Radio Receiver
 

@@ -13,10 +13,12 @@ And you need to know if the organization bathroom is smells bad (and of course i
 - 1x [433Mhz Radio Receiver Module](http://www.dx.com/p/433mhz-rf-transmitter-receiver-link-kit-green-221225#.Vbj-8PlVhBc)
 
 Photo:
+
 ![Arduino Receiver](Documentation/Images/ArduinoReceiver.jpg?raw=true)
 
 Sketch:
-![Arduino Receiver Sketch](Documentation/Images/SketchReceiver.jpg.jpg?raw=true)
+
+![Arduino Receiver Sketch](Documentation/Images/SketchReceiver.jpg?raw=true)
 
 
 ## Arduino - Radio Transmitter
@@ -33,19 +35,24 @@ Sketch:
 - 1x Eletronic Swicth (optional)
 
 Photo:
+
 ![Arduino Transmitter](Documentation/Images/ArduinoTransmitter.jpg?raw=true)
 
 Sketch:
+
 ![Arduino Transmitter Sketch](Documentation/Images/SketchTransmitter.jpg.jpg?raw=true)
 
 
 ## C# WPF - Serial Data Reader and API Webhook sender
 
 WPF serial reader:
+
 ![WPF Serial Data Reader](Documentation/Images/WPFPrint.png?raw=true)
 
 The communication diagram:
+
 ![Communication](Documentation/Images/Schema.jpg?raw=true)
 
 Slack example:
+
 ![Slack](Documentation/Images/SlackExample.jpg?raw=true)

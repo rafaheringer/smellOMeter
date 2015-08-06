@@ -3,7 +3,7 @@
 
 const int receive_pin = 2;
 
-//Configurações do MQ2 - Sensor de Gás
+//Configuraï¿½ï¿½es do MQ2 - Sensor de Gï¿½s
 const int gasToObserve = 2;		//0 = Propano; 1 = Butano; 2 = Metano; 3 = Hidrogenio; 4 = Alcool
 int gasSensorValue = 0;
 int gasConcentration;
@@ -11,26 +11,26 @@ int gasPPM;
 int gasMinPPM;
 int gasMaxPPM;
 
-//Configurações dos IR
-int IR1HasActivity = 1;							//1 - Passou e não voltou 0 - Não passou ou não voltou
-int IR2HasActivity = 1;							//1 - Passou e não voltou 0 - Não passou ou não voltou
+//Configuraï¿½ï¿½es dos IR
+int IR1HasActivity = 1;							//1 - Passou e nï¿½o voltou 0 - Nï¿½o passou ou nï¿½o voltou
+int IR2HasActivity = 1;							//1 - Passou e nï¿½o voltou 0 - Nï¿½o passou ou nï¿½o voltou
 
-//Configurações do receptor
+//Configuraï¿½ï¿½es do receptor
 //byte message[VW_MAX_MESSAGE_LEN];
 //byte messageLength = VW_MAX_MESSAGE_LEN;
 
-//Outras configurações
+//Outras configuraï¿½ï¿½es
 bool debugMode = false;
 
 void setup()
 {
-	//Mapeamento dos valores mínimo e máximo, a fim de usar a Modulação de Largura de Pulso 
+	//Mapeamento dos valores mï¿½nimo e mï¿½ximo, a fim de usar a Modulaï¿½ï¿½o de Largura de Pulso 
 	//Propano: 200 - 5000ppm
 	//Butano: 300 - 5000ppm
 	//Metano: 5000 - 20000ppm
 	//Hidrogenio: 300 - 5000ppm
 	//Alcool: 100 - 2000ppm
-	//Faça o teste de base para verificar o mínimo de PPM do gás desejado
+	//Faï¿½a o teste de base para verificar o mï¿½nimo de PPM do gï¿½s desejado
 	switch (gasToObserve)
 	{
 	case 0:
@@ -63,7 +63,7 @@ void setup()
 	vw_setup(2000);	 // Bits per sec
 
 	Serial.begin(9600);
-	vw_rx_start();       //Começa o processo
+	vw_rx_start();       //Comeï¿½a o processo
 }
 
 byte count = 1;
@@ -85,15 +85,15 @@ void loop()
 
 		//Pincodes:
 		//1: MQ2 - Sensor de Gas
-		//2: PIR - Primeiro sensor de presença
-		//3: SONIC - Segundo sensor de presença
+		//2: PIR - Primeiro sensor de presenï¿½a
+		//3: SONIC - Segundo sensor de presenï¿½a
 
 		//Espera o comando do MQ2
 		int gasSensorValue = processResponse((char*)message, '1', messageLength);
 
 		if (gasSensorValue) {
-			//Conversão do gás
-			//0 é o mínimo de saída do pino e 1023 sempre será o máximo do Arduino
+			//Conversï¿½o do gï¿½s
+			//0 ï¿½ o mï¿½nimo de saï¿½da do pino e 1023 sempre serï¿½ o mï¿½ximo do Arduino
 			gasConcentration = map(gasSensorValue, 0, 1023, 0, 100);
 			gasPPM = map(gasSensorValue, 0, 1023, gasMinPPM, gasMaxPPM);
 

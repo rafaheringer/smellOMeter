@@ -14,11 +14,11 @@ And you need to know if the organization bathroom is smells bad (and of course i
 
 Photo:
 
-![Arduino Receiver](Documentation/Images/ArduinoReceiver.jpg?raw=true)
+<a href="Documentation/Images/ArduinoReceiver.jpg?raw=true"><img src="Documentation/Images/ArduinoReceiver.jpg?raw=true" width="200" /></a>
 
 Sketch:
 
-![Arduino Receiver Sketch](Documentation/Images/SketchReceiver.jpg?raw=true)
+<a href="Documentation/Images/SketchReceiver.jpg?raw=true"><img src="Documentation/Images/SketchReceiver.jpg?raw=true" width="200" /></a>
 
 
 ## Arduino - Radio Transmitter
@@ -36,23 +36,24 @@ Sketch:
 
 Photo:
 
-![Arduino Transmitter](Documentation/Images/ArduinoTransmitter.jpg?raw=true)
+<a href="Documentation/Images/ArduinoTransmitter.jpg?raw=true"><img src="Documentation/Images/ArduinoTransmitter.jpg?raw=true" width="200" /></a>
 
 Sketch:
 
-![Arduino Transmitter Sketch](Documentation/Images/SketchTransmitter.jpg.jpg?raw=true)
+<a href="Documentation/Images/SketchTransmitter.jpg?raw=true"><img src="Documentation/Images/SketchTransmitter.jpg?raw=true" width="200" /></a>
 
 
 ## C# WPF - Serial Data Reader and API Webhook sender
 
 WPF serial reader:
 
-![WPF Serial Data Reader](Documentation/Images/WPFPrint.png?raw=true)
+<a href="Documentation/Images/WPFPrint.png?raw=true"><img src="Documentation/Images/WPFPrint.png?raw=true" width="200" /></a>
+
 
 The communication diagram:
 
-![Communication](Documentation/Images/Schema.jpg?raw=true)
+<a href="Documentation/Images/Schema.jpg?raw=true"><img src="Documentation/Images/Schema.jpg?raw=true" width="200" /></a>
 
 Slack example:
 
-![Slack](Documentation/Images/SlackExample.jpg?raw=true)
+<a href="Documentation/Images/SlackExample.jpg?raw=true"><img src="Documentation/Images/SlackExample.jpg?raw=true" width="200" /></a>

@@ -9,8 +9,8 @@ namespace SerialDataApiComm.Services
 	internal static class SensorsService
 	{
 		private static int sonicSensorNeutralDistance = 118;
-		private static int gasSensorMinLimit = 250;
-		private static int gasSensorMaxLimit = 350;
+		private static int gasSensorMinLimit = 120;
+		private static int gasSensorMaxLimit = 220;
 
 		internal static bool SomeoneIsDetected(Models.SensorValuesModel sensorValues)
 		{
